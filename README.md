@@ -14,7 +14,7 @@ This project calculates the distance between multiple vehicles using their GPS c
 - `vehicle_map.html` – Output map showing all vehicles (generated after running script)
 - `vehicle_report.txt` – Output report with pairwise distance information (generated after running script)
 
-## ▶ How to Run
+##  How to Run
 
 1. **Install dependencies**:
    ```bash
