@@ -1,20 +1,20 @@
-# GeoSpy Vehicle Distance Analyzer 🚗📍
+# GeoSpy Vehicle Distance Analyzer 
 
 This project calculates the distance between multiple vehicles using their GPS coordinates (latitude & longitude) from an Excel sheet and visualizes the results on an interactive map.
 
-## 🔧 Features
+##  Features
 - Reads vehicle coordinates from an Excel file (`vehicle_locations.xlsx`)
 - Computes distances between all vehicle pairs
 - Generates a report (`vehicle_report.txt`)
 - Creates a map (`vehicle_map.html`) showing all vehicle locations and routes
 
-## 📁 Files
+##  Files
 - `vehicle_locations.xlsx` – Sample input file with vehicle GPS data
 - `geospy_distance_report.py` – Python script to compute distances and generate output
 - `vehicle_map.html` – Output map showing all vehicles (generated after running script)
 - `vehicle_report.txt` – Output report with pairwise distance information (generated after running script)
 
-## ▶️ How to Run
+## ▶ How to Run
 
 1. **Install dependencies**:
    ```bash
@@ -30,7 +30,7 @@ This project calculates the distance between multiple vehicles using their GPS c
    - Open `vehicle_map.html` in a browser to see the interactive map.
    - Check `vehicle_report.txt` for distance details.
 
-## 📌 Example
+##  Example
 With the provided sample data (New Delhi and Mumbai), the tool will:
 - Show markers for both locations
 - Draw a connecting line
